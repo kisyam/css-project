@@ -1,0 +1,145 @@
+@import url("https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@800&display=swap");
+
+body {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+        Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+    height: 100vh;
+}
+
+header {
+    display: grid;
+    grid-template-rows: 15vh;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin-bottom: 5px;
+}
+
+.header {
+    background-image: url(https://assets.vogue.com/photos/62741421ea33e1ea561db7e4/master/w_1600,c_limit/VO0622_EdLetter_01.jpg);
+    background-position: right 15%;
+    font-family: "Montserrat", sans-serif;
+    grid-column: 1 / -1;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    font-size: 40px;
+}
+
+.header h1 {
+    color: rgba(0, 0, 0, 0.8);
+    transition: color 0.8s ease-in-out;
+    cursor: pointer;
+}
+
+.header h1:hover {
+    color: white;
+}
+
+.grid {
+    gap: 5px;
+    display: grid;
+    width: 100%;
+    grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+    grid-auto-rows: 43vh;
+}
+
+.text {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+
+.title {
+    text-align: center;
+    font-size: 13px;
+}
+
+.writer {
+    font-size: 12px;
+    text-align: center;
+}
+
+.text:first-child {
+    background-color: #bfbea7;
+}
+.text:nth-child(3) {
+    background-color: #fd4815;
+}
+.text:nth-child(5) {
+    background-color: #847f96;
+}
+.text:nth-child(6) {
+    background-color: #d1ff71;
+}
+.text:nth-child(7) {
+    background-color: #983433;
+}
+.text:nth-child(8) {
+    background-color: #39a9f9;
+}
+.text:nth-child(9) {
+    background-color: #41907a;
+}
+.text:nth-child(11) {
+    background-color: #e3c4e5;
+}
+
+.text:nth-child(13) {
+    background-color: #e3c4e5;
+}
+.text:nth-child(14) {
+    background-color: #e3c4e5;
+}
+.text:nth-child(15) {
+    background-color: #e3c4e5;
+}
+.text:nth-child(16) {
+    background-color: #e3c4e5;
+}
+.text:nth-child(17) {
+    background-color: #e3c4e5;
+}
+.text:nth-child(18) {
+    background-color: #e3c4e5;
+}
+.text:nth-child(19) {
+    background-color: #e3c4e5;
+}
+.text:nth-child(20) {
+    background-color: #e3c4e5;
+}
+.text:nth-child(21) {
+    background-color: #e3c4e5;
+}
+.text:nth-child(22) {
+    background-color: #e3c4e5;
+}
+
+.image:nth-child(2) {
+    background-size: cover;
+    background-image: url(https://images.squarespace-cdn.com/content/v1/55f45174e4b0fb5d95b07f39/1610219607086-X1S5CZOR74QCB5EQJZGV/Dua+Lipa+by+Emma+Summerton+British+Vogue+Jan+2021+%289%29.jpg?format=2500w);
+    background-position: center;
+}
+.image:nth-child(4) {
+    background-size: cover;
+    background-image: url(https://images.squarespace-cdn.com/content/v1/55f45174e4b0fb5d95b07f39/1610219556318-ZADWQG1T2Y2P8U7BUKT1/Dua+Lipa+by+Emma+Summerton+British+Vogue+Jan+2021+%2811%29.jpg?format=2500w);
+}
+
+.image:nth-child(5) {
+    background-size: cover;
+    background-image: url(https://images.squarespace-cdn.com/content/v1/55f45174e4b0fb5d95b07f39/1610219681035-41XB5Z5LM0IMDAFL4PPV/Dua+Lipa+by+Emma+Summerton+British+Vogue+Jan+2021+%283%29.jpg?format=2500w);
+    background-position: center;
+}
+
+.image:nth-child(10) {
+    background-size: cover;
+    background-image: url(https://images.squarespace-cdn.com/content/v1/55f45174e4b0fb5d95b07f39/1610219685156-9KE4ALHW9XO0X0G6Y3IP/Dua+Lipa+by+Emma+Summerton+British+Vogue+Jan+2021+%285%29.jpg?format=2500w);
+    background-position: center;
+}
+.image:nth-child(12) {
+    background-size: cover;
+    background-image: url(https://images.squarespace-cdn.com/content/v1/55f45174e4b0fb5d95b07f39/1610219689683-0V7VB40NPJFU4DKZ7JLZ/Dua+Lipa+by+Emma+Summerton+British+Vogue+Jan+2021+%286%29.jpg?format=2500w);
+    background-position: 20% center;
+}
